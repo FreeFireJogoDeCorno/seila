@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'SigmarOne';
+    src: url('SigmarOne-Regular.ttf') format('opentype');
+    font-weight: normal; 
+    font-style: normal;
+  }
+
+body{
+    background-color: #1c0b2b;
+    color: white;
+    font-family: 'SigmarOne';
+  }
+  
+.cabecalho{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+  
+.corpo_game{
+    background-color: #6f95ff;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 20px;
+    border: 5px solid #5c65c0;
+    border-radius: 10px;  
+  }
+  
+  #questoes_game{
+    color:white;
+  }
+  
+  #resposta_game1{
+    width: 350px;
+    text-align: absolute;
+
+    top: 100%;
+    margin-left: 145px;
+    margin-top:-40px;
+    width: 425px;
+    height: 85px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #resposta_game2{
+    width: 425px;
+    height: 85px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  
+
+    
+    margin-top:-40px;
+    width: 425px;
+    height: 85px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #resposta_game3{
+    width: 350px;
+    text-align: absolute;
+    left: 100%;
+    top: 100%;
+    margin-left:-110px;
+    margin-top:-40px;
+    width: 425px;
+    height: 85px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #resposta_game4{
+    width: 350px;
+    text-align: absolute;
+    left: 100%;
+    top: 100%;
+    margin-left:-110px;
+    margin-top:-40px;
+    width: 425px;
+    height: 85px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: #081844;
+    border: 5px solid #90e60f;
+    border-radius: 10px;
+  }
+
+  .login_input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+  }
+
+  #login_titulo{
+    text-align: center;
+  }
+
+  #login_botao{
+    width: 100%;
+    background-color: #15ff00;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+
+
+
+
+
+
+
+
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+}
+
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+.third {
+  border-color: #3d31c9;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #1c0b2b inset, 0 0 0 0 #0189f9;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #f90101 inset, 0 0 10px 4px #f90101;
+}
